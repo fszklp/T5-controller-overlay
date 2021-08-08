@@ -6,7 +6,7 @@
 }
 
 .ds4.disconnected {
-    background: url(base.png);
+    background: url(disconnected.png);
 }
 
 .ds4.disconnected div {
