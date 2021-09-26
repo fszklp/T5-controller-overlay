@@ -1,7 +1,7 @@
 .controller.ds4 {
     background: url(base.png);
-    height: 598px;
-    width: 806px;
+    height: 2495px;
+    width: 3358px;
 }
 .ds4.disconnected {
     background: url(disconnected.png);
@@ -10,13 +10,13 @@
     display: none;
 }
 .ds4 .triggers {
-    width: 588px;
-    height: 90px;
+    width: 2453px;
+    height: 378px;
     position: absolute;
-    left: 109px;
+    left: 454px;
 }
 .ds4 .trigger {
-    width: 99px;
+    width: 412px;
     height: 100%;
     background: url(triggers.png);
     opacity: 0;
@@ -26,20 +26,20 @@
 }
 .ds4 .trigger.right {
     float: right;
-    background-position-x: 99px;
+    background-position-x: 412px;
 }
 .ds4 .bumper {
-    width: 99px;
-    height: 23px;
+    width: 412px;
+    height: 93px;
     background: url(bumper.png) no-repeat;
     opacity: 0;
 }
 .ds4 .bumpers {
     position: absolute;
-    width: 588px;
-    height: 23px;
-    left: 109px;
-    top: 94px;
+    width: 2450px;
+    height: 93px;
+    left: 454px;
+    top: 392px;
 }
 .ds4 .bumper.pressed {
     opacity: 1;
@@ -52,36 +52,36 @@
     transform: rotateY(180deg);
 }
 .ds4 .touchpad {
-    width: 262px;
-    height: 151px;
+    width: 1100px;
+    height: 630px;
     position: absolute;
-    left: 272px;
-    top: 122px;
+    left: 1133px;
+    top: 509px;
 }
 .ds4 .touchpad.pressed {
     background: url(touchpad.png) no-repeat center;
 }
 .ds4 .meta {
-    width: 42px;
-    height: 42px;
+    width: 176px;
+    height: 176px;
     position: absolute;
-    left: 382px;
-    bottom: 216px;
+    left: 1592px;
+    bottom: 901px;
 }
 .ds4 .meta.pressed {
     background: url(meta.png) no-repeat center;
 }
 .ds4 .arrows {
     position: absolute;
-    width: 352px;
-    height: 46px;
-    top: 142px;
-    left: 227px;
+    width: 1466px;
+    height: 192px;
+    top: 592px;
+    left: 945px;
 }
 .ds4 .back, .ds4 .start {
     background: url(start.png);
-    width: 28px;
-    height: 46px;
+    width: 118px;
+    height: 195px;
     opacity: 0;
 }
 .ds4 .back.pressed, .ds4 .start.pressed {
@@ -96,15 +96,15 @@
 }
 .ds4 .abxy {
     position: absolute;
-    width: 170px;
-    height: 171px;
-    top: 159px;
-    left: 567px;
+    width: 708px;
+    height: 713px;
+    top: 663px;
+    left: 2362px;
 }
 .ds4 .button {
     position: absolute;
-    width: 55px;
-    height: 55px;
+    width: 230px;
+    height: 230px;
     background: url(face.png);
 }
 .ds4 .button.pressed {
@@ -113,7 +113,7 @@
 .ds4 .a {
     background-position: 0 0;
     bottom: 0;
-    left: 58px;
+    left: 242px;
 }
 .ds4 .b {
     background-position: -57px 0;
